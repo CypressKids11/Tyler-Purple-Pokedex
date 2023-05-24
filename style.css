@@ -1,0 +1,356 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5vw;
+    position: sticky;
+    background-color: rgb(138, 43, 226, .8);
+    top: 0;
+    z-index: 1;
+
+}
+
+.header h1 {
+    margin: 1vw;
+}
+
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.row h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+}
+
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+
+}
+
+#s {
+height: 200px;
+
+}
+
+
+body {
+    background-image: url(wp1989463.jpg );
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+h1 {
+color: rgb(255, 255, 255);
+
+}
+
+
+#pokemon {
+width: 45vw;
+height: 45vw;
+}
+
+
+#purpoke {
+margin-left: 500px;
+color: rgb(42, 1, 80);
+
+}
+
+
+#mrdivy {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+
+#mrdivy img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+#a {
+height: 200px;
+width: 200px;
+
+}
+
+
+.flyer {
+width: 35vw;
+height: 35vw;
+animation: fly 3s ease-in-out infinite;
+
+}
+
+
+@keyframes fly {
+
+    0% {
+        transform: translateX(0px);
+    }
+    
+    50% {
+        transform: translateX(60vw);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+ .cxo {
+
+animation: spin 2s linear infinite;
+
+ }
+
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+#r {
+color: rgb(244, 148, 244);
+}
+
+
+#l {
+color: hotpink;
+}
+
+.fightCont {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mew {
+    margin-right: 3vw;
+    width: 250px;
+    height: 300px;
+    background-image: url(mewtwo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: mew 4s linear infinite;
+}
+
+
+.di {
+    margin-left: 3vw;
+    width: 250px;
+    height: 300px;
+    background-image: url(ditto.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: ditto 4s linear infinite;
+}
+    
+
+@keyframes mew {
+    0% {
+        transform: translate(0, 0);
+    }
+    15% {
+        transform: translate(12vw, -6vh) rotate(25deg);
+    }
+    17.5% {
+        transform: translate(18vw, 0) rotate(25deg);
+    }
+    20%, 40%, 82%, 90% {
+        transform: translate(12vw) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(12vw, -4vh);
+    }
+    60% {
+        transform: translate(12vw, -16vh);
+    }
+    70% {
+        transform: translate(12vw, -12vh);
+    }
+
+    100% {
+        transform: translate(0, 0)
+    }
+
+
+}
+
+
+
+
+@keyframes ditto {
+    14.9% {
+        background-image: url(ditto.png);
+        transform: rotateY(0deg)
+    }
+    15% {
+        background-image: url(mewtwo.png);
+        transform: rotateY(180deg);
+    }
+    17.5% {
+        background-image: url(mewtwo.png);
+        transform: rotateY(180deg) rotate(0);
+        
+    }
+    25%, 60% {
+        background-image: url(mewtwo.png);
+        transform: rotateY(180deg) rotate(-90deg);
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.HrDiv {
+    display: block;
+    width: 80vw;
+    height: 10px;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+#open {
+color: deeppink;
+margin-left: 500px;
+}
+
+
+#openll {
+height: 200px;
+width: 400px;
+margin-left: 500px;
+}
+
+
+#mu {
+height: 100px;
+width: 200px;
+font-size: larger;
+background-color: rgb(255, 20, 20);
+color: aliceblue;
+font-style: inherit;
+}
+
+
+#bl {
+height: 100px;
+width: 200px;
+font-size: larger;
+background-color: rgb(0, 85, 255);
+color: aliceblue;
+font-style: inherit;
+}
+
+
+#ye {
+    height: 100px;
+width: 200px;
+font-size: larger;
+background-color: rgb(204, 255, 0);
+color: aliceblue;
+font-style: inherit;
+}
+
+
+#bla {
+    height: 100px;
+width: 200px;
+font-size: larger;
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+font-style: inherit;
+}
+
+
+#siv {
+    height: 100px;
+width: 200px;
+font-size: larger;
+background-color: rgb(82, 82, 82);
+color: aliceblue;
+font-style: inherit;
+}
+
+
+#gol {
+    height: 100px;
+width: 200px;
+font-size: larger;
+background-color: goldenrod;
+color: aliceblue;
+font-style: inherit;
+}
+
+
+#fin {
+display: flex;
+justify-content: space-evenly;
+}
+
+
+#end {
+color: rgb(237, 132, 237);
+background-color: darkorchid;
+font-size: xx-large;
+}
+
+
+#by {
+height: 300px;
+margin-left: 500px;
+}
+
+
